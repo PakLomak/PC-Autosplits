@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="38">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"Основные"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"HP"</Description>
+      <LastState Value="1077936128" RealAddress="25882B6C"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BD2EC</Address>
+      <Offsets>
+        <Offset>2AC</Offset>
+        <Offset>C0</Offset>
+        <Offset>20</Offset>
+        <Offset>0</Offset>
+        <Offset>0</Offset>
+        <Offset>0</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Lives"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BED58</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>10</Offset>
+        <Offset>2C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Lives"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BED58</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>10</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BED58</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>8</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BED58</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>14</Offset>
+        <Offset>2C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BED20</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>10</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BD198</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>8</Offset>
+        <Offset>10</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BE340</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>14</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BD198</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>10</Offset>
+        <Offset>C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BD198</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>10</Offset>
+        <Offset>1B8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BE344</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>10</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BED58</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>14</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BD198</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>C</Offset>
+        <Offset>10</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BD198</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>8</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"Указатель"</Description>
+      <LastState Value="3" RealAddress="25884E80"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"DuckTales.exe"+007BE344</Address>
+      <Offsets>
+        <Offset>5F0</Offset>
+        <Offset>48</Offset>
+        <Offset>C0</Offset>
+        <Offset>44</Offset>
+        <Offset>0</Offset>
+        <Offset>14</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
