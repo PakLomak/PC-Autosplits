@@ -8,6 +8,7 @@ state ("Angry Video Game Nerd I & II Deluxe")
 init
 {
     vars.levelComplete = false;
+    vars.menu = false;
 }
 isLoading
 {
@@ -22,12 +23,24 @@ start
     if (old.igt == 0x00 && current.igt != 0x00 && current.screen == 0x17)
     {
         vars.levelComplete = false;
+        vars.menu = false; 
         return true;
     }
 }
 split
 {
-    if (current.igtlvl == old.igtlvl && current.menu != 1) vars.levelComplete = true;
+    if (current.menu == 1)
+    {
+        vars.menu = true;
+        return false;
+    }
+    if (old.menu == 1) return false;
+    if (old.menu == 0 && vars.menu == true)
+    {
+        vars.menu = false;
+        return false;
+    }
+    if (current.igtlvl == old.igtlvl && vars.menu == false) vars.levelComplete = true;
     if (old.screen != 0x04 && current.screen == 0x04 && vars.levelComplete == true)
     {
         vars.levelComplete = false;
@@ -37,7 +50,8 @@ split
 }
 startup 
 {
-	settings.Add("main", false, "AutoSplitter for Angry Video Game Nerd I & II Deluxe by PakLomak & Xanders08");
+	settings.Add("main", false, "AutoSplitter for Angry Video Game Nerd I Deluxe by PakLomak & Xanders08");
+    settings.Add("main1", false, "--AVGN II NOT WORKING !!!", "main");
 	settings.Add("main3", false, "--https://www.twitch.tv/paklomak", "main");
     settings.Add("main2", false, "--https://www.twitch.tv/xanders08", "main");
 }
