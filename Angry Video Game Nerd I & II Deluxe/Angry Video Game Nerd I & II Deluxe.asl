@@ -2,7 +2,8 @@ state ("Angry Video Game Nerd I & II Deluxe")
 {
     float igt: "mono-2.0-bdwgc.dll", 0x00497D88, 0x7A0, 0x580, 0x9C8;
     byte screen: "UnityPlayer.dll", 0x19C5C40;
-    byte lvlcomp: "mono-2.0-bdwgc.dll", 0x00497DC8, 0x0B0, 0xED4;
+    byte menu: "mono-2.0-bdwgc.dll", 0x00497D88, 0x440, 0x320, 0xE94;
+    float igtlvl: "mono-2.0-bdwgc.dll", 0x00497DC8, 0xB0, 0xDF0;
 }
 init
 {
@@ -26,7 +27,7 @@ start
 }
 split
 {
-    if (current.lvlcomp == 1) vars.levelComplete = true;
+    if (current.igtlvl == old.igtlvl && current.menu != 1) vars.levelComplete = true;
     if (old.screen != 0x04 && current.screen == 0x04 && vars.levelComplete == true)
     {
         vars.levelComplete = false;
@@ -36,7 +37,7 @@ split
 }
 startup 
 {
-	settings.Add("main", false, "AutoSplitter for Contra III - The Alien Wars by PakLomak & Xanders08");
+	settings.Add("main", false, "AutoSplitter for Angry Video Game Nerd I & II Deluxe by PakLomak & Xanders08");
 	settings.Add("main3", false, "--https://www.twitch.tv/paklomak", "main");
     settings.Add("main2", false, "--https://www.twitch.tv/xanders08", "main");
 }
