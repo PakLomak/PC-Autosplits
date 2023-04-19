@@ -1,7 +1,7 @@
 state ("Angry Video Game Nerd I & II Deluxe")
 {
     float igt: "mono-2.0-bdwgc.dll", 0x00497D88, 0x7A0, 0x580, 0x9C8;
-    byte screen: "UnityPlayer.dll", 0x19C5C40;
+    byte screen: "UnityPlayer.dll", 0x019B5F78, 0xC9;
     byte menu: "mono-2.0-bdwgc.dll", 0x00497D88, 0x440, 0x320, 0xE94;
     float igtlvl: "mono-2.0-bdwgc.dll", 0x00497DC8, 0xB0, 0xDF0;
 }
@@ -20,7 +20,7 @@ gameTime
 }
 start
 {
-    if (old.igt == 0x00 && current.igt != 0x00 && current.screen == 0x17)
+    if (old.igt == 0x00 && current.igt != 0x00 && current.screen == 0x0A)
     {
         vars.levelComplete = false;
         vars.menu = false; 
@@ -41,12 +41,12 @@ split
         return false;
     }
     if (current.igtlvl == old.igtlvl && vars.menu == false) vars.levelComplete = true;
-    if (old.screen != 0x04 && current.screen == 0x04 && vars.levelComplete == true)
+    if (old.screen != 0x28 && current.screen == 0x28 && vars.levelComplete == true)
     {
         vars.levelComplete = false;
         return true;
     }
-    if (old.screen == 0x05 && current.screen == 0x03) return true;
+    if (old.screen == 0x0A && current.screen == 0x08) return true;
 }
 startup 
 {
